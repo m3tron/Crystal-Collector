@@ -4,9 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
+    <title>Crystal Collector Game</title>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/assets/javascript/game.js"></script>
+    <link rel="stylesheet" href="/assets/css/reset.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <h1>Crystals Collector!</h1>
+    <div id="intro">
+      <p>You will be given a random number at the start of the game.</p>
+      <br />
+      <p>
+        There are four crystals below. By clicking on a crystal you will add a
+        specific amount of points to your total score.
+      </p>
+      <br />
+      <p>
+        You win the game by matching your total score to the random number, you
+        lose the game if your total score goes above the random number.
+      </p>
+      <br />
+      <p>The value of each crystal is hidden from you until you click on it.</p>
+      <br />
+      <p>
+        Each time when the game starts, the game will change the values of each
+        crystal.
+      </p>
+    </div>
+    <div id="counter">
+      <div id="computerNumber">hello</div>
+      <div id="ratio">howdy</div>
+    </div>
+    <div id="jewels">
+      <div id="jewel1"></div>
+      <div id="jewel2"></div>
+      <div id="jewel3"></div>
+      <div id="jewel4"></div>
+    </div>
+    <div id="score">
+      <div id="outro">Your total score is:</div>
+      <div id="userNumber"></div>
+    </div>
+  </body>
 </html>
