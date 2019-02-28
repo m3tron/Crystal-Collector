@@ -10,9 +10,8 @@
       integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
       crossorigin="anonymous"
     ></script>
-    <script src="/assets/javascript/game.js"></script>
-    <link rel="stylesheet" href="/assets/css/reset.css" />
-    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
     <h1>Crystals Collector!</h1>
@@ -37,18 +36,35 @@
       </p>
     </div>
     <div id="counter">
-      <div id="computerNumber">hello</div>
-      <div id="ratio">howdy</div>
+      <div id="computerNumber"></div>
+      <div id="ratio">
+        <div id="message"></div>
+        <br />
+        <br />
+        <p>Score:</p>
+        <br />
+        <div id="winNumber">Wins: 0</div>
+        <div id="loseNumber">Losses: 0</div>
+      </div>
     </div>
     <div id="jewels">
-      <div id="jewel1"></div>
-      <div id="jewel2"></div>
-      <div id="jewel3"></div>
-      <div id="jewel4"></div>
+      <div id="jewel1">
+        <img src="assets/images/Gems_01_64x64_022.png" alt="Crystal 1" />
+      </div>
+      <div id="jewel2">
+        <img src="assets/images/Gems_01_64x64_023.png" alt="Crystal 2" />
+      </div>
+      <div id="jewel3">
+        <img src="assets/images/Gems_01_64x64_024.png" alt="Crystal 3" />
+      </div>
+      <div id="jewel4">
+        <img src="assets/images/Gems_01_64x64_025.png" alt="Crystal 4" />
+      </div>
     </div>
     <div id="score">
       <div id="outro">Your total score is:</div>
       <div id="userNumber"></div>
     </div>
   </body>
+  <script src="assets/javascript/game.js"></script>
 </html>

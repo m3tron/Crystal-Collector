@@ -37,6 +37,8 @@ p {
   padding: 5px;
   background-color: cadetblue;
   margin-bottom: 10px;
+  font-size: 50px;
+  text-align: center;
 }
 
 #ratio {
@@ -55,7 +57,6 @@ p {
   height: 100px;
   width: 100px;
   display: inline-flex;
-  background-color: white;
   margin-bottom: 10px;
   margin-right: 10px;
 }
@@ -72,4 +73,11 @@ p {
   height: 150px;
   padding: 5px;
   background-color: aquamarine;
+  font-size: 50px;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
 }
