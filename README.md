@@ -1,6 +1,6 @@
 # Crystal-Collector
 
-Crystal Collector
+https://m3tron.github.io/Crystal-Collector/
 
 You will be given a random number at the start of the game.
 
